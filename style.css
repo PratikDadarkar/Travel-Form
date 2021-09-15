@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    /* background-color: rgb(152, 237, 243); */
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+    font-family: 'Belleza', sans-serif;
+    font-size: 44px; 
+}
+
+p{
+ font-size: 20px;
+}
+
+input, textarea{
+    font-family: 'Belleza', sans-serif;
+    width: 53%; 
+    margin: 3px 0px;
+    padding: 9px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    color: black;
+    background-color: whitesmoke;
+    padding: 4px;
+    font-size: 12px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: blanchedalmond;
+    background-color: black;
+}
+.beach3{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: -1;
+}
+p.submitted {
+    font-size: 23px;
+    color: #0320fb;
+}
